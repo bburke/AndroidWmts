@@ -17,11 +17,7 @@
 <resources>
     <!-- Used in WmtsActivity with ConnectIdListener -->
     <string-array name="connectIDs">
-        <item>Barret: a4d76f40-9f41-42ee-875e-ed75ab80fa60</item>
-        <item>NAVTEQ ATLAS: d4d8d632-c951-49ac-8428-52b3b4586621</item>
-        <item>NAVTEQ ImageConnect: c34a4319-251f-4dc3-818b-3daea8cf3487</item>
-        <item>NAVTEQ LBSP Holdback: a8746049-59e7-4cec-ac29-59744ee33ee2</item>
-        <item>Garmin: cf1a7a50-c53c-43f0-9844-02683a2ffd81</item>
+        <item>Barret: TBD</item>
     </string-array>
     
     <!-- Used in WmtsActivity with ProfileListener -->
