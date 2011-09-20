@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent" 
+    android:layout_height="match_parent">
+ <!--  
+    <TextView android:layout_width="fill_parent" 
+              android:layout_height="wrap_content" 
+              android:text="@string/hello"
+    />
+
+    <ImageView android:src="@drawable/sample1"
+               android:layout_height="wrap_content" 
+               android:layout_width="wrap_content" 
+               android:fitsSystemWindows="true"
+    />
+-->
+    <ImageView android:id="@+id/DgTile"
+               android:layout_height="wrap_content" 
+               android:layout_width="wrap_content"
+               android:fitsSystemWindows="true"
+               android:minWidth="256dip"
+               android:minHeight="256dip"
+    />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/connectIdLabel"
+    />
+    <Spinner android:id="@+id/connectIdMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:prompt="@string/connectIdMenuPrompt"
+    />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/profileLabel"
+    />
+    <Spinner android:id="@+id/profileMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:prompt="@string/profileMenuPrompt"
+    />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/projectionLabel"
+    />
+    <Spinner android:id="@+id/projectionMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="true"
+        android:prompt="@string/projectionMenuPrompt"
+    />
+
+</LinearLayout>

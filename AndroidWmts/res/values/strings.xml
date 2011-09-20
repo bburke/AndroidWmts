@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">WMTS DigitalGlobe</string>
+    
+    <string name="connectIdLabel">Connect ID:</string>
+    <string name="connectIdMenuPrompt">Choose a connectID</string>
+    
+    <string name="profileLabel">Profile:</string>
+    <string name="profileMenuPrompt">Choose a Feature Profile</string>
+    
+    <string name="projectionLabel">Projection:</string>
+    <string name="projectionMenuPrompt">Choose a Projection</string>
+</resources>
